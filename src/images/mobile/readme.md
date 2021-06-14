@@ -1,0 +1,1 @@
+Wrzucając tutaj zdjęcia, utwórz folder z nazwą sekcji której dotyczą. 
