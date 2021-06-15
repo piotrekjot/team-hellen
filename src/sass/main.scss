@@ -5,6 +5,20 @@
 
 // Style dla pliku z przykładem HTML fragmentu
 @import './example';
+
+/*    BASE    */
+
+@import './base/common';
+
+/*    UTILS    */
+
 @import './utils/setup';
 @import './utils/variables';
-@import './base/common';
+
+/*    COMPONENTS    */
+
+@import './components/secondary-title'; /*    COMPONENTS    */
+
+
+
+/*    PARTIALS    */
