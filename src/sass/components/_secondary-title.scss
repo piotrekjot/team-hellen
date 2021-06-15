@@ -12,3 +12,22 @@
     color: #fff;
   }
 }
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .secondary-title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .secondary-title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .secondary-title {
+    font-size: 46px;
+  }
+}
