@@ -3,32 +3,6 @@
  * Główny plik dla stylów.
  * Wszystkie partials podłączamy tutaj.
  */
-.example {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  line-height: 1.5;
-  background-color: #fff;
-  color: #424242;
-  max-width: 960px;
-  padding: 16px;
-}
-
-.example code {
-  font-family: monospace;
-  font-size: 16px;
-  font-weight: 700;
-  background-color: #009688;
-  color: #fff;
-  padding: 2px 6px;
-  border-radius: 2px;
-}
-
-.example .background {
-  height: 240px;
-  background-image: url("../images/demo.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
 /*    BASE    */
 body {
   font-family: var(--main-font);
@@ -75,6 +49,11 @@ body {
   }
 }
 
+.span--accent {
+  color: #ff6b09;
+}
+
+/*    INDEX    */
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .how-we-do__tittle {
     font-family: Montserrat;
@@ -371,8 +350,8 @@ body {
     min-width: 480px;
   }
   .program::before {
-    content: "";
-    border: 1px solid #FFFFFF;
+    content: '';
+    border: 1px solid #ffffff;
     margin-left: 30px;
     position: absolute;
     width: 780px;
@@ -380,7 +359,7 @@ body {
     left: -350px;
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
-    background-color: #FFFFFF;
+    background-color: #ffffff;
   }
   .program__list,
   .program__list__description {
@@ -397,7 +376,7 @@ body {
     line-height: 26px;
     letter-spacing: 0.03em;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .program__list__tittle {
     font-family: Montserrat;
@@ -407,10 +386,10 @@ body {
     line-height: 28px;
     letter-spacing: 0.08em;
     text-align: left;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .program__list__tittle::before {
-    content: "";
+    content: '';
     width: 12px;
     height: 12px;
     border-radius: 50%;
@@ -442,5 +421,484 @@ body {
   }
 }
 
-/*    COMPONENTS    */
-/*    PARTIALS    */
+.advantages {
+  font-weight: 700;
+  line-height: 1.649rem;
+  letter-spacing: 0.08em;
+  z-index: 1113;
+  background-color: #e5e5e5;
+  color: #111518;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Montserrat;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.advantages__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.advantages__item {
+  width: 146px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.advantages__icon {
+  z-index: 1111;
+  fill: #ff6b09;
+  display: block;
+}
+
+.advantages__text {
+  word-wrap: normal;
+  margin: 0;
+}
+
+.title--hidden {
+  display: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .advantages {
+    font-size: 14px;
+    padding-bottom: 45px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .advantages__list {
+    display: block;
+  }
+  .advantages__item {
+    width: 222px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .advantages__item:nth-child(even) {
+    margin-top: 26px;
+    margin-bottom: 21px;
+  }
+  .advantages__icon {
+    height: 60px;
+    width: 67px;
+    display: block;
+  }
+  .advantages__text {
+    margin-left: 8px;
+    width: 146px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .advantages {
+    font-size: 14px;
+    padding-bottom: 45px;
+  }
+  .advantages__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 688px;
+    height: 69px;
+  }
+  .advantages__item {
+    width: 215px;
+  }
+  .advantages__item:nth-child(even) {
+    margin-right: 21px;
+    margin-left: 21px;
+  }
+  .advantages__icon {
+    width: 61px;
+    height: 63px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .advantages__text {
+    margin-left: 8px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    max-width: 146px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .advantages {
+    font-size: 20px;
+    padding-bottom: 130px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .advantages__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 1344px;
+    height: 102px;
+  }
+  .advantages__item {
+    width: 448px;
+    height: 102px;
+  }
+  .advantages__icon {
+    width: 100px;
+    height: 102px;
+    display: block;
+  }
+  .advantages__text {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    display: block;
+    margin-left: -10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .teacher {
+    padding: 250px 21px 28px;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .teacher {
+    padding: 240px 0 33px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .teacher {
+    padding: 104px 0 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .teacher__title {
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .teacher__title {
+    margin-bottom: 38px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .teacher__title {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .teacher-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .teacher__name {
+    margin-right: 46px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .teacher__name {
+    margin-right: 86px;
+  }
+}
+
+.teacher__img {
+  display: block;
+}
+
+@media screen and (min-width: 481px) {
+  .teacher__img {
+    width: 246px;
+    height: 320px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .teacher__img {
+    width: 492px;
+    height: 644px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .teacher-about {
+    margin-top: 26px;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .teacher-about {
+    width: 396px;
+    font-size: 29px;
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .teacher-about {
+    width: 610px;
+  }
+}
+
+.teacher-about__name {
+  font-family: Montserrat;
+  color: #111518;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+  .teacher-about__name {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .teacher-about__name {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .teacher-about__name {
+    font-size: 29px;
+    margin-bottom: 20px;
+  }
+}
+
+.teacher-about__name::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #B9B9B9;
+  opacity: 0.38;
+}
+
+@media screen and (max-width: 480px) {
+  .teacher-about__name::after {
+    margin-top: 10px;
+    margin-bottom: 26px;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .teacher-about__name::after {
+    margin-top: 16px;
+    margin-bottom: 26px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .teacher-about__name::after {
+    margin-top: 16px;
+    margin-bottom: 42px;
+  }
+}
+
+.teacher-about__experience {
+  font-family: Montserrat;
+  color: #111518;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+  .teacher-about__experience {
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .teacher-about__experience {
+    margin-bottom: 30px;
+    font-size: 13px;
+    line-height: 1.538;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .teacher-about__experience {
+    margin-bottom: 40px;
+    font-size: 16.667px;
+    line-height: 1.75;
+  }
+}
+
+.teacher-about__experience::after {
+  display: block;
+  content: '';
+  width: 25px;
+  height: 2px;
+  background-color: #E5E5E5;
+  margin-top: 22px;
+}
+
+@media screen and (min-width: 1200px) {
+  .teacher-about__experience::after {
+    margin-bottom: 36px;
+  }
+}
+
+.icon-list {
+  list-style: none;
+  position: relative;
+}
+
+.icon-list::before {
+  content: '';
+  display: block;
+  height: 30px;
+  width: 30px;
+  background-image: url(./images/sprite.svg#icon-check);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  fill: #FF6B09;
+}
+
+.teacher-about__experience-item {
+  padding-left: 18px;
+}
+
+@media screen and (max-width: 480px) {
+  .teacher-about__experience-item:not(:last-child) {
+    margin-bottom: 22px;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .teacher-about__experience-item:not(:last-child) {
+    margin-bottom: 26px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .teacher-about__experience-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.teacher-about__experience-text {
+  font-family: Montserrat;
+  color: #B9B9B9;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .teacher-about__experience-text {
+    font-size: 13px;
+    line-height: 1.538;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .teacher-about__experience-text {
+    font-size: 13px;
+    line-height: 1.538;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .teacher-about__experience-text {
+    font-size: 16.667px;
+    line-height: 1.75;
+  }
+}
+
+.teacher-about__biography-text {
+  font-family: Montserrat;
+  color: #B9B9B9;
+}
+
+@media screen and (max-width: 480px) {
+  .teacher-about__biography-text {
+    font-size: 11px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .teacher-about__biography-text {
+    font-size: 11px;
+    line-height: 1.8;
+    margin-bottom: 27px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .teacher-about__biography-text {
+    font-size: 16.667px;
+    line-height: 1.75;
+    margin-bottom: 32px;
+  }
+}
+
+.teacher-about__certificate {
+  display: block;
+  font-family: Montserrat;
+  color: #FF6B09;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+  .teacher-about__certificate {
+    font-size: 11px;
+    line-height: 2.652;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .teacher-about__certificate {
+    font-size: 11px;
+    line-height: 2.652;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .teacher-about__certificate {
+    font-size: 16.667px;
+    line-height: 1.75;
+  }
+}

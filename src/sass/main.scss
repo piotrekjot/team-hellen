@@ -4,7 +4,6 @@
  */
 
 // Style dla pliku z przykładem HTML fragmentu
-@import './example';
 
 /*    BASE    */
 
@@ -24,3 +23,12 @@
 @import './components/footer';
 
 /*    PARTIALS    */
+
+@import './components/span-accent';
+
+/*    INDEX    */
+
+@import './index/how-we-do';
+@import './index/program';
+@import './index/advantages';
+@import './index/about';
