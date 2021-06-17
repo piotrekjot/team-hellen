@@ -1,23 +1,29 @@
-<section class="contacts">
-    <div class="container">
-        <h1 class="contacts__title">
-            Registration for a <span class="contacts__title--color">free</span> phone <br />
-            <span class="contacts__title--color">consultation</span> on the nuances of English <br />
-            UPE
-        </h1>
-        <h2 class="contacts__text">
-            Leave a request for participation in a <span class="contacts__text--color">free lesson</span>. <br />
-            A consultant will contact you and answer your questions
-        </h2>
-        <form class="contacts-form">
-            <div class="contacts__input-container">
-                <input type="text" name="username" class="contacts__input" placeholder="Name*" required />
-                <input type="tel" class="reg__input" placeholder="Phone*" name="phone_number" required />
-                <button type="submit" class="contacts__btn">
-                    I want a free lesson
-                </button>
-            </div>
-        </form>
-
-    </div>
+<section class="contacts" id="contacts">
+  <div class="container contacts__container">
+    <h2 class="contacts__title">
+      Registration for a <span class="contacts__title--color">free</span> phone <br />
+      <span class="contacts__title--color">consultation</span> on the nuances of English <br />
+      UPE
+    </h2>
+    <h3 class="contacts__text">
+      Leave a request for participation in a
+      <span class="contacts__text--color">free lesson</span>.
+      <br />
+      A consultant will contact you and answer your questions
+    </h3>
+    <form class="contacts__form">
+      <div class="contacts__input-container">
+        <input type="text" name="username" class="contacts__input" placeholder="Name*" required />
+        <input
+          type="tel"
+          class="contacts__input"
+          placeholder="Phone*"
+          name="phone_number"
+          pattern="[0-9]{9}"
+          required
+        />
+        <button type="submit" class="contacts__btn">I want a free lesson</button>
+      </div>
+    </form>
+  </div>
 </section>
