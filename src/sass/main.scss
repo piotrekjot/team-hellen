@@ -5,6 +5,10 @@
 
 // Style dla pliku z przykładem HTML fragmentu
 
+/*     HEADER   */
+
+@import"./index/header";
+
 /*    BASE    */
 
 @import './base/common';
@@ -17,6 +21,10 @@
 /*    COMPONENTS    */
 
 @import './components/secondary-title';
+@import './components/footer';
+
+/*    PARTIALS    */
+
 @import './components/span-accent';
 
 /*    INDEX    */
@@ -24,5 +32,10 @@
 @import './index/how-we-do';
 @import './index/program';
 @import './index/advantages';
+
 @import './index/guarantee';
 @import './index/reviews';
+
+@import './index/about';
+@import './index/contacts';
+// @import './index/benefits';
