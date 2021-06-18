@@ -10,6 +10,7 @@
         "../sass/components/_span-accent.scss",
         "../sass/index/_how-we-do.scss",
         "../sass/index/_program.scss"
+
     ],
     "names": [],
     "file": "main.min.css"
