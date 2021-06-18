@@ -1,0 +1,147 @@
+.problems {
+  background: linear-gradient(180deg, #111518 79%, #fff 79%);
+  font-family: getFonts('main');
+
+  & .secondary-title {
+    color: #fff;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #fff;
+    box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
+    list-style: none;
+    padding: 0;
+  }
+
+  &__item {
+    font-weight: 700;
+    letter-spacing: 00.08em;
+
+    &--text {
+      word-wrap: normal;
+    }
+
+    &--line {
+      color: getColor('accent');
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .problems {
+    & .secondary-title {
+      padding-top: 25px;
+      width: 280px;
+      height: 170px;
+      font-size: 24px;
+      margin: auto;
+      justify-self: center;
+    }
+
+    &__list {
+      width: 280px;
+      height: 488px;
+      justify-self: center;
+      font-size: 14px;
+      margin-top: 25px;
+    }
+
+    &__item {
+      width: 236px;
+      margin: auto;
+
+      &--text,
+      &--line {
+        margin: auto;
+      }
+
+      &--line {
+        padding-bottom: 5px;
+      }
+    }
+
+    &__icon {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .problems {
+    height: 500px;
+
+    & .secondary-title {
+      padding-top: 60px;
+      margin: auto;
+      width: 688px;
+      height: 104px;
+      font-size: 24px;
+      padding-bottom: 25px;
+    }
+
+    &__list {
+      width: 688px;
+      height: 303px;
+      justify-self: center;
+      font-size: 14px;
+      justify-content: space-evenly;
+      align-self: flex-end;
+      margin-top: 90px;
+    }
+
+    &__item {
+      width: 236px;
+      height: 70px;
+    }
+
+    &__icon {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .problems {
+    position: relative;
+    height: 710px;
+
+    & .secondary-title {
+      width: 866px;
+      height: 278px;
+      margin-left: 183px;
+      padding-top: 100px;
+    }
+
+    &__list {
+      width: 1314px;
+      height: 362px;
+      justify-self: center;
+      margin: auto;
+      padding: 70px 112px 62px 114px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    &__item {
+      width: 336px;
+      height: 100px;
+
+      &--text {
+        font-size: 20px;
+        line-height: 1.4em;
+      }
+    }
+
+    &__icon {
+      position: absolute;
+      left: 1280px;
+      top: 89px;
+      fill: #3d3d3d;
+      width: 446px;
+      height: 471px;
+    }
+  }
+}

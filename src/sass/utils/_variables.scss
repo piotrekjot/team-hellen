@@ -7,8 +7,11 @@ $colors: (
 @function getColor($key) {
   @return map-get($colors, $key);
 }
-$fonts:('main': Montserrat);
+
+$fonts: (
+  'main': Montserrat,
+);
 
 @function getFonts($key) {
-  @return map-get($fonts, $key)
+  @return map-get($fonts, $key);
 }

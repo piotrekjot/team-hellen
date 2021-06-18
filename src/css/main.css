@@ -191,8 +191,7 @@ body {
   .how-we-do__item {
     height: 280px;
     width: 280px;
-    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -321,23 +320,18 @@ body {
   }
   .how-we-do__list {
     list-style-type: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     margin-left: -40px;
     margin-top: -27px;
   }
   .how-we-do__item {
     height: 334px;
     max-width: 334px;
-    -webkit-box-shadow: 0px 8px 26px 0px #0000001A;
-            box-shadow: 0px 8px 26px 0px #0000001A;
+    box-shadow: 0px 8px 26px 0px #0000001A;
     margin-left: 40px;
     margin-top: 27px;
-    -ms-flex-preferred-size: calc(100% / 2 - 40px);
-        flex-basis: calc(100% / 2 - 40px);
+    flex-basis: calc(100% / 2 - 40px);
   }
   .how-we-do__item__line1,
   .how-we-do__item__line2,
@@ -388,6 +382,7 @@ body {
     position: relative;
     left: 50%;
     -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     margin-top: 40px;
   }
@@ -398,6 +393,7 @@ body {
     position: relative;
     left: 50%;
     -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     margin-top: 40px;
   }
@@ -408,6 +404,7 @@ body {
     position: relative;
     left: 50%;
     -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     margin-top: 40px;
   }
@@ -418,6 +415,7 @@ body {
     position: relative;
     left: 50%;
     -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     margin-top: 40px;
   }
@@ -428,6 +426,7 @@ body {
     position: relative;
     left: 50%;
     -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     margin-top: 40px;
   }
@@ -438,6 +437,7 @@ body {
     position: relative;
     left: 50%;
     -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     margin-top: 40px;
   }
@@ -476,8 +476,7 @@ body {
     width: 780px;
     top: 440px;
     left: -350px;
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
+    transform: rotate(90deg);
     background-color: #ffffff;
   }
   .program__list,
@@ -547,13 +546,9 @@ body {
   z-index: 1113;
   background-color: #e5e5e5;
   color: #111518;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-family: Montserrat;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .advantages__list {
@@ -564,8 +559,6 @@ body {
 
 .advantages__item {
   width: 146px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -588,21 +581,15 @@ body {
   .advantages {
     font-size: 14px;
     padding-bottom: 45px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
   .advantages__list {
     display: block;
   }
   .advantages__item {
     width: 222px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
   .advantages__item:nth-child(even) {
     margin-top: 26px;
@@ -627,12 +614,8 @@ body {
     padding-bottom: 45px;
   }
   .advantages__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     width: 688px;
     height: 69px;
   }
@@ -646,15 +629,11 @@ body {
   .advantages__icon {
     width: 61px;
     height: 63px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    align-self: center;
   }
   .advantages__text {
     margin-left: 8px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    align-self: center;
     max-width: 146px;
   }
 }
@@ -663,20 +642,12 @@ body {
   .advantages {
     font-size: 20px;
     padding-bottom: 130px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
   .advantages__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     width: 1344px;
     height: 102px;
   }
@@ -690,9 +661,7 @@ body {
     display: block;
   }
   .advantages__text {
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    align-self: center;
     display: block;
     margin-left: -10px;
   }
@@ -753,12 +722,8 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .teacher-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    justify-content: flex-start;
   }
 }
 
@@ -1131,3 +1096,50 @@ body {
   border: none;
   cursor: pointer;
 }
+
+.problems {
+  background: linear-gradient(180deg, #111518 80%, #94bbe9 80%);
+  z-index: -2;
+}
+
+.problems .secondary-title {
+  color: #fff;
+  margin: 0;
+}
+
+.problems__list {
+  background-color: #fff;
+  margin: auto;
+  z-index: 3;
+  justify-self: center;
+  box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
+}
+
+@media screen and (min-width: 1200px) {
+  .problems {
+    position: relative;
+    height: 710px;
+  }
+  .problems .secondary-title {
+    width: 866px;
+    height: 178px;
+  }
+  .problems__list {
+    width: 1314px;
+    height: 362px;
+    position: absolute;
+    bottom: 0;
+    left: 183px;
+  }
+  .problems__icon {
+    z-index: -1;
+    position: absolute;
+    right: -46px;
+    bottom: 0;
+    overflow: hidden;
+    fill: #3d3d3d;
+    width: 446px;
+    height: 621px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
