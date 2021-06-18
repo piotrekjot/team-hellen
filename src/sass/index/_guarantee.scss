@@ -1,0 +1,39 @@
+.guarantee-section {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.guarantee-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+  margin: 0 auto;
+  width: 1314px;
+  height: 395px;
+}
+
+.secondary-title {
+  font-family: map-get($fonts, 'main');
+  font-style: normal;
+  text-align: center;
+}
+
+.guarantee-text__letter {
+  font-family: map-get($fonts, 'main');
+  font-style: normal;
+  font-weight: 500;
+  color: #3d3d3d;
+
+  & > sup {
+    color: map-get($colors, 'accent');
+  }
+}
+
+.guarantee-text__letter::before {
+  content: url(../images/fire.svg);
+  width: 21px;
+  height: 29px;
+  margin-right: 30px;
+}
