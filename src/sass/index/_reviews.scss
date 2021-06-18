@@ -1,0 +1,40 @@
+.reviews-section {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.reviews-block {
+  background-color: #ffffff;
+  box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
+  margin: 0 auto;
+  width: 1090px;
+  height: 370px;
+}
+
+.reviews-text__person {
+  font-family: map-get($fonts, 'main');
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: map-get($colors, 'accent');
+}
+
+.reviews-text__title {
+  @extend .reviews-text__person;
+  font-weight: 500;
+  color: map-get($colors, 'secondary');
+}
+
+.reviews-text__letter {
+  font-family: map-get($fonts, 'main');
+  font-style: normal;
+  font-weight: 500;
+  color: #3d3d3d;
+  width: 706px;
+  height: 168px;
+
+  .reviews-text__letter--link {
+    color: map-get($colors, 'accent');
+  }
+}
