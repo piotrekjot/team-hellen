@@ -81,7 +81,19 @@
 .program{
   background-color: getColor(primary);
   min-height: 1101px;
-
+ position: relative;
+ z-index: 200;
+  &::before {
+    content: '';
+    border: 1px solid #ffffff;
+    margin-left: 30px;
+    position: absolute;
+    width: 798px;
+    top: 559px;
+    left: -318px;
+    transform: rotate(90deg);
+    background-color: #ffffff;
+  }
 }
 .program__tittle{
   font-family: Montserrat;
@@ -92,14 +104,17 @@
   letter-spacing: 0.03em;
   text-align: left;
   color: #ffffff;
-  margin-top: 60px;
+  padding-top: 60px;
   margin-left: 40px;
-
+  
+ 
 }
 .program__list{
   list-style: none;
   display: inline-block;
   margin-left: 120px;
+  position: relative;
+  
 }
 .program__list__tittle{
   font-family: Montserrat;
@@ -111,11 +126,25 @@
   text-align: left;
   color: #ffffff;
   display: block;
-  
- 
   text-transform: uppercase;
+  padding-top: 20px;
+  z-index: 100;
+  
+  &::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: getColor(accent);
+    vertical-align: middle;
+    margin-left: -55px;
+    margin-right: 45px;
+    z-index: 100;
+  }
 
 }
+
 .program__list__description{
  display: inline-block;
  margin-top: 40px;
