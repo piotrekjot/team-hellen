@@ -75,3 +75,76 @@
     color: getColor(secondary);
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+.program{
+  background-color: getColor(primary);
+  min-height: 1101px;
+
+}
+.program__tittle{
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 34px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 60px;
+  margin-left: 40px;
+
+}
+.program__list{
+  list-style: none;
+  display: inline-block;
+  margin-left: 120px;
+}
+.program__list__tittle{
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  color: #ffffff;
+  display: block;
+  
+ 
+  text-transform: uppercase;
+
+}
+.program__list__description{
+ display: inline-block;
+ margin-top: 40px;
+ text-transform: none;
+ font-family: getFonts(main);
+ font-size: 12px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 20px;
+ letter-spacing: 0.08em;
+ text-align: left;
+ color: getColor(accent);
+ margin-left: -40px;
+ margin-right: 90px;
+
+}
+.program__list__spec{
+  display: flex;
+  max-width: 143px;
+  font-family: getFonts(main);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  color:getColor(secondary);
+  
+
+}
+
+}
