@@ -1,11 +1,134 @@
+.mobile__link:hover {
+    color: #FF6B09;
+}
+@media screen and (min-width: 1200px) {
+.header {
+    padding-top: 33px;
+    padding-left: 183px;
+    display: flex;
+    align-items: center;
+}
+.header__logo {
+    width: 128px;
+    height: 45px;
+    margin-right: 144px;
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+.header__list {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+.header__link {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #B9B9B9;
+    padding-right: 40px;
+}
+.header__link:hover{
+    color: #FF6B09;
+}
+.header__menu--btn {
+    width: 336px;
+    height: 70px;
+    border: 2px solid #FF6B09;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #FF6B09;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+.header__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #111518;
+    width: 642px;
+    height: 228px;
+    margin-left: 183px;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    .header {
+        display: flex;
+        padding-left: 40px;
+    }
+    .header__logo {
+        width: 128px;
+        height: 45px; 
+    }
+    .header__list {
+        display: none;
+    }
+    .header__nav {
+        display: flex;
+        align-items: center;
+    }
+    .header__menu--btn {
+        width: 260px;
+        height: 48px;
+        border: 2px solid #FF6B09;
+        box-sizing: border-box;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: #FF6B09;
+        background: #FFFFFF;
+        cursor: pointer;
+    }
+}
+
+
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
+    .header {
+        display: flex;
+        margin-top: 34px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .header__logo {
         width: 80px;
         height: 29px;
     }
-    .burger__icon {
-        width: 20px;
-        height: 20px;
+    .header__logo--dark {
+        fill: white;
+        width: 80px;
+        height: 29px;
+        position: absolute;
+    }
+    .menu__logo {
+        width: 40px;
+        height: 40px;
+    }
+    .header__nav {
+        display: none;
     }
     .header__title {
         font-family: Montserrat;
@@ -36,12 +159,76 @@
         letter-spacing: 0.03em;
         color: #FFFFFF;
 
-
-
     }
     .header__link {
         font-family: Montserrat;
         text-decoration: none;
     }
-
+    .mobile__menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    box-sizing: border-box;
+  }
+  .mobile__btn {
+      border: none;
+      background: none;
+  }
+  .mobile__nav {
+    padding-left: 20px;
+    padding-top: 34px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 568px;
+    background: rgba(17, 21, 24, 0.9);
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    transform: translateX(100%);
+  }
+  .mobile__list {
+    list-style: none;
+    margin: 0px;
+    padding-top: 68px;
+    padding-left: 0px;
+  }
+  .mobile__link {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 180%;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+  }
+  .mobile__btn:focus ~ .mobile__nav {
+    transform: translateX(0);
+  }
+  .header__title {
+      padding-left: 20px;
+  }
+  .mobile__menu--btn {
+    width: 260px;
+    height: 48px;
+    border: 2px solid #FF6B09;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FF6B09;
+    background: none;
+  }
+  .mobile__item--btn {
+      padding-top: 59px;
+      padding-left: 11px;
+  }
 }

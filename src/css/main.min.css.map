@@ -12,7 +12,7 @@
         "../sass/index/_program.scss",
         "../sass/index/_advantages.scss",
         "../sass/index/_about.scss",
-        "../sass/index/_problems.scss"
+        "../sass/index/_problems.scss",
         "../sass/index/_program.scss"
     ],
     "names": [],
