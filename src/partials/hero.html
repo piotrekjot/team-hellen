@@ -5,6 +5,18 @@
         <button type="button" class="hero__btn">
             I want a free lesson
         </button>
+        <picture class="header__picture">
+            <source srcset="
+                ./images/mobile/header/Group.jpg
+              " media="(max-width: 767px)" />
+            <source srcset="
+                ./images/tablet/header/Group.jpg
+              " media="(max-width: 1279px)" />
+            <source srcset="
+                ./images/desktop/header/Group.jpg
+              " media="(min-width: 1280px)" />
+            <img src="./images/desktop/header/Group.jpg" alt="teacher_photo" />
+          </picture>
         <div class="hero__picture">
             <img src="./images/mobile/header/Group.jpg" media="(max-width: 767px)">
             <picture class="teacher__img">
