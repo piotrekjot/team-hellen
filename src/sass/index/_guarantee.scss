@@ -4,9 +4,12 @@
   justify-content: center;
 }
 
-.secondary-title {
+.guarantee-title {
   font-family: map-get($fonts, 'main');
   font-style: normal;
+  font-weight: 800;
+  line-height: 1.304em;
+  letter-spacing: 0.03rem;
   text-align: center;
 }
 
@@ -29,7 +32,7 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .secondary-title {
+  .guarantee-title {
     font-size: 26px;
   }
 
@@ -41,16 +44,33 @@
   .guarantee-text__letter {
     font-size: 12px;
     line-height: 1.6;
-    width: 252px;
+    width: 245px;
+    margin-left: 35px;
   }
 
   .guarantee-text__letter::before {
     content: url(../images/fire-mobile.svg);
+    display: block;
+    height: 0;
+    margin-left: -35px;
+  }
+
+  .guarantee-text__letter::after {
+    content: '';
+    display: block;
+    height: 70px;
+    border-left: 1px dashed #b9b9b9;
+    margin-left: -28px;
+    margin-top: -50px;
+  }
+
+  .guarantee-text__letter--none::after {
+    display: none;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .secondary-title {
+  .guarantee-title {
     font-size: 26px;
   }
 
@@ -62,16 +82,36 @@
   .guarantee-text__letter {
     font-size: 12px;
     line-height: 1.6;
-    width: 550px;
-    margin-left: 15px;
+    width: 520px;
+    margin-left: 35px;
   }
 
   .guarantee-text__letter::before {
     content: url(../images/fire-mobile.svg);
+    display: block;
+    height: 0;
+    margin-left: -40px;
+  }
+
+  .guarantee-text__letter::after {
+    content: '';
+    display: block;
+    height: 30px;
+    border-left: 1px dashed #b9b9b9;
+    margin-left: -33px;
+    margin-top: -20px;
+  }
+
+  .guarantee-text__letter--none::after {
+    display: none;
   }
 }
 
 @media screen and (min-width: 1200px) {
+  .guarantee-title {
+    font-size: 46px;
+  }
+
   .guarantee-block {
     width: 1314px;
     height: 395px;
