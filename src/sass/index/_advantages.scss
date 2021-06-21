@@ -14,15 +14,20 @@
     padding: 0;
     margin: 0;
   }
+
   &__item {
     width: 146px;
     display: flex;
-  }
 
-  &__icon {
-    z-index: 1111;
-    fill: getColor('accent');
-    display: block;
+    &--student::before {
+      content: url(../images/adv-student.svg);
+    }
+    &--learning::before {
+      content: url(../images/adv-learning.svg);
+    }
+    &--insurance::before {
+      content: url(../images/adv-insurance.svg);
+    }
   }
 
   &__text {
@@ -51,16 +56,19 @@
       width: 222px;
       align-items: center;
 
+      &--learning::before,
+      &--student::before,
+      &--insurance::before {
+        height: 60px;
+        width: 67px;
+        display: block;
+        fill: getColor('accent');
+      }
+
       &:nth-child(even) {
         margin-top: 26px;
         margin-bottom: 21px;
       }
-    }
-
-    &__icon {
-      height: 60px;
-      width: 67px;
-      display: block;
     }
 
     &__text {
@@ -91,12 +99,14 @@
         margin-right: 21px;
         margin-left: 21px;
       }
-    }
 
-    &__icon {
-      width: 61px;
-      height: 63px;
-      align-self: center;
+      &--learning::before,
+      &--student::before,
+      &--insurance::before {
+        width: 61px;
+        height: 63px;
+        align-self: center;
+      }
     }
 
     &__text {
@@ -124,12 +134,14 @@
     &__item {
       width: 448px;
       height: 102px;
-    }
 
-    &__icon {
-      width: 100px;
-      height: 102px;
-      display: block;
+      &--learning::before,
+      &--student::before,
+      &--insurance::before {
+        width: 100px;
+        height: 102px;
+        display: block;
+      }
     }
 
     &__text {
