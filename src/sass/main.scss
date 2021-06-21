@@ -7,8 +7,8 @@
 
 /*     HEADER   */
 
-@import"./index/header";
-@import"./index/hero";
+@import './index/header';
+@import './index/hero';
 
 /*    BASE    */
 
@@ -22,7 +22,6 @@
 /*    COMPONENTS    */
 
 @import './components/secondary-title';
-@import './components/footer';
 
 /*    PARTIALS    */
 
@@ -42,5 +41,5 @@
 @import './index/problems';
 
 @import './index/contacts';
+@import './index/footer';
 @import './index/benefits';
-
