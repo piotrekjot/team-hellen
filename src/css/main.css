@@ -1846,6 +1846,12 @@ body {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .teacher-wrapper {
+    display: flex;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .teacher__name {
     margin-right: 40px;
@@ -1994,6 +2000,7 @@ body {
 @media screen and (min-width: 1200px) {
   .teacher-about__experience::after {
     margin-bottom: 36px;
+    margin-right: 35px;
   }
 }
 
@@ -2011,7 +2018,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  left: 0px;
+  left: -45px;
   top: 0px;
   fill: #FF6B09;
 }
@@ -2770,6 +2777,7 @@ body {
   .benefits__list {
     width: 280px;
     height: 488px;
+    margin-left: 20px;
     justify-self: center;
     font-size: 14px;
     margin-top: 25px;
@@ -2801,6 +2809,7 @@ body {
   .benefits__list {
     width: 688px;
     height: 303px;
+    margin-left: 40px;
     justify-self: center;
     font-size: 14px;
     justify-content: space-evenly;
@@ -2830,7 +2839,7 @@ body {
     width: 1314px;
     height: 362px;
     justify-self: center;
-    margin: 0 auto;
+    margin-left: 183px;
     padding: 70px 112px 62px 114px;
     flex-wrap: wrap;
     justify-content: space-between;
