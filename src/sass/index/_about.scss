@@ -48,6 +48,9 @@
       display: flex;
       justify-content: flex-start;
     }
+    @media screen and (min-width: 1200px) {
+      display: flex;
+    }
   }
   
   .teacher__name {
@@ -168,6 +171,7 @@
     margin-left: -40px;
     @media screen and (min-width: 1200px) {
       margin-bottom: 36px;
+      margin-right: 35px;
     }
   }
   
@@ -184,7 +188,7 @@
       background-repeat: no-repeat;
       background-position: center;
       position: absolute;
-      left: 0px;
+      left: -45px;
       top: 0px;
       fill: #FF6B09;
     }
