@@ -34,13 +34,16 @@
     letter-spacing: 0.08em;
     color: #fff;
     margin-bottom: 30px;
+    font-weight: 600;
   }
 
   .contacts__text--color {
     color: getColor(accent);
+    font-weight: bold;
   }
   .contacts__title--color {
     color: getColor(accent);
+    font-weight: 600;
   }
   .contacts__input {
     width: 100%;
@@ -78,6 +81,14 @@
     cursor: pointer;
   }
 }
+@media screen and (min-width: 693px) and (max-width: 766px) {
+.contacts__input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .contacts {
     background: url(../images/tablet/contacts/contacts_tablet.png);
@@ -111,6 +122,7 @@
     font-family: getFonts(main);
     font-style: normal;
     font-size: 14px;
+    font-weight: 600;
     line-height: 1.214;
     text-align: center;
     letter-spacing: 0.08em;
@@ -122,9 +134,11 @@
 
   .contacts__text--color {
     color: getColor(accent);
+    
   }
   .contacts__title--color {
     color: getColor(accent);
+    font-weight: bold;
   }
   .contacts__input-container {
     display: flex;
@@ -200,6 +214,7 @@
     font-family: getFonts(main);
     font-style: normal;
     font-size: 30px;
+    font-weight: 600;
     line-height: 1.214;
     text-align: center;
     letter-spacing: 0.08em;
