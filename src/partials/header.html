@@ -1,66 +1,84 @@
 
 <section class="header">
-    <a href="#">
-    <svg class="header__logo">
-        <use href="./images/sprite.svg#icon-logo-project"></use>
-      </svg>
-    </a>
-    <button class="header__btn">
-        CONSULTATION BY PHONE
-    </button>
-    <div class="mobile__menu">
-    <button class="mobile__btn" type="button">
-        <svg class="menu__logo">
-            <use href="./images/burger.svg#icon-menu"></use>
-          </svg>
-          </button>
-    <div class="mobile__nav">
-        <svg class="header__logo--dark">
-            <use href="./images/sprite.svg#icon-logo-light"></use>
-          </svg>
-            <ul class="mobile__list">
-                <li class="mobile__item">
-                    <a href="#how-we-do" class="mobile__link">Studying program</a>
-                </li>
-                <li class="mobile__item">
-                    <a href="#about" class="mobile__link">About</a>
-                </li>
-                <li class="mobile__item">
-                    <a href="#" class="mobile__link">Training options</a>
-                </li>
-                <li class="mobile__item">
-                    <a href="#contacts" class="mobile__link">Contacts</a>
-                </li>
-                <li class="mobile__item--btn">
-                <button class="mobile__menu--btn" type="button">
+    <picture class="header__background">
+        <source srcset="
+            ./images/mobile/header/background-mobile.jpg
+          " media="(max-width: 767px)" />
+        <source srcset="
+            ./images/tablet/header/background-tablet.jpg
+          " media="(max-width: 1279px)" />
+        <source srcset="
+            ./images/desktop/header/background-desktop.jpg
+          " media="(min-width: 1280px)" />
+        <img src="./images/desktop/header/background-desktop.jpg"/>
+      </picture>
+        <div class="mobile__menu">
+            <div>
+            <svg class="header__logo">
+                <use href="./images/sprite.svg#icon-logo-project"></use>
+            </svg>
+            </div>
+            <div>
+            <button class="header__btn">
                 CONSULTATION BY PHONE
-                </button>   
+            </button>
+            </div>
+                <button class="mobile__btn" type="button">
+                    <svg class="menu__logo">
+                        <use href="./images/burger.svg#icon-menu"></use>
+                    </svg>
+                </button>
+            <div class="mobile__nav">
+                    <svg class="header__logo--dark">
+                        <use href="./images/sprite.svg#icon-logo-light"></use>
+                    </svg>
+                 <ul class="mobile__list">
+                    <li class="mobile__item">
+                        <a href="#how-we-do" class="mobile__link">Studying program</a>
+                    </li>
+                    <li class="mobile__item">
+                        <a href="#about" class="mobile__link">About</a>
+                    </li>
+                    <li class="mobile__item">
+                        <a href="#" class="mobile__link">Training options</a>
+                    </li>
+                    <li class="mobile__item">
+                        <a href="#contacts" class="mobile__link">Contacts</a>
+                    </li>
+                    <li class="mobile__item--btn">
+                        <button class="mobile__menu--btn" type="button">
+                            CONSULTATION BY PHONE
+                        </button>   
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header__nav">
+            <svg class="header__logo">
+                <use href="./images/sprite.svg#icon-logo-project"></use>
+            </svg>
+        <div class="header__menu">   
+            <ul class="header__list">
+                <li class="header__item">
+                    <a href="#how-we-do" class="header__link">Studying program</a>
+                </li>
+                <li class="header__item">
+                    <a href="#about" class="header__link">About</a>
+                </li>
+                <li class="header__item">
+                    <a href="#" class="header__link">Training options</a>
+                </li>
+                <li class="header__item">
+                    <a href="#contacts" class="header__link">Contacts</a>
                 </li>
             </ul>
-    </div>
-
-</div>
-<div class="header__nav">
-    <div class="header__menu">
-        <ul class="header__list">
-            <li class="header__item">
-                <a href="#how-we-do" class="header__link">Studying program</a>
-            </li>
-            <li class="header__item">
-                <a href="#about" class="header__link">About</a>
-            </li>
-            <li class="header__item">
-                <a href="#" class="header__link">Training options</a>
-            </li>
-            <li class="header__item">
-                <a href="#contacts" class="header__link">Contacts</a>
-            </li>
-        </ul>
-    </div>
+        </div>
         <button class="header__menu--btn" type="button" href="#contacts">
             CONSULTATION BY PHONE
         </button>
-</div>
+        </div>
+        </div>
+    
 </section>
-<h1 class="header__title">Complex preparation<br> for English UPE</h1>
-</header>
+
+
