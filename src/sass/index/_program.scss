@@ -15,6 +15,18 @@
       transform: rotate(90deg);
       background-color: #ffffff;
     }
+    &::after{
+      content: url(../images/mobile/program/program-mobile.jpg);
+      opacity: 0.5;
+     position: absolute;
+     bottom: 0px;
+     right: 65px;
+     width: 176px;  
+     height: 137px;
+     z-index: 1000;
+    mix-blend-mode:hard-light;
+    
+    }
   }
 
   .program__list,
@@ -119,6 +131,18 @@
     transform: rotate(90deg);
     background-color: #ffffff;
   }
+  &::after {
+    content: url(../images/tablet/program/program-tablet.jpg);
+    opacity: 0.6;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    width: 384px;
+    height: 280px;
+    z-index: 1000;
+    mix-blend-mode: hard-light;
+
+  }
 }
 .program__tittle{
   font-family: getFonts(main);
@@ -219,6 +243,17 @@
      width: 100%;
      top: 300px;
      position: absolute;
+   }
+   &::after {
+     content: url(../images/desktop/program/program-desktop.jpg);
+     opacity: 0.6;
+     position: absolute;
+     bottom: -225px;
+    left: 150px;
+     z-index: 1;
+     mix-blend-mode: hard-light;
+     transform: scale(0.8);
+
    }
    
 }
