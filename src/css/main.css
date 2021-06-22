@@ -487,6 +487,22 @@
     align-items: center;
     letter-spacing: 0.08em;
   }
+  .hero__btn {
+    width: 260px;
+    height: 48px;
+    background: #ff6b09;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-right: 340px;
+    margin-top: 53px;
+  }
 }
 
 /*    BASE    */
@@ -1272,7 +1288,7 @@ body {
     line-height: 1.55;
     letter-spacing: 0.08em;
     text-align: left;
-    opacity: 50%;
+    opacity: 0.5;
     padding-bottom: -30px;
   }
 }
