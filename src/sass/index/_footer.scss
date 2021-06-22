@@ -72,7 +72,7 @@
   .footer__list {
     list-style: none;
     padding-top: 40px;
-
+    padding-left: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -102,6 +102,7 @@
     letter-spacing: 0.08em;
     border-right: 1px solid getColor(secondary);
     padding-right: 24px;
+    padding-left: 70px;
   }
   .footer__link {
     text-decoration: none;
@@ -127,13 +128,13 @@
     font-style: normal;
     font-size: 14px;
     line-height: 2;
-    padding-left: 40px;
+    padding-left: 55px;
     padding-top: 21px;
     padding-bottom: 21px;
     text-align: left;
   }
   .footer__social--instagram{
-    margin-left: -100px;
+    margin-left: -80px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -147,6 +148,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
   }
   .footer__logo--icon {
     width: 128px;
@@ -165,6 +167,7 @@
     font-size: 30px;
     line-height: 1.2;
     letter-spacing: 0.08em;
+    padding-right: 220px;
   }
   .footer__link {
     text-decoration: none;
@@ -189,7 +192,7 @@
     background-color: getColor(primary);
     width: 100%;
     height: 70px;
-    padding-left: 183px;
+    padding-left: 90px;
   }
   .footer__bottom--color {
     color: getColor(secondary);
@@ -204,8 +207,35 @@
     
   }
   .footer__social--instagram {
-    margin-left: -370px;
+    margin-left: -450px;
     position: relative;
   }
- 
+ .footer__item:nth-child(1){
+   padding-left: 100px;
+ }
+}
+@media screen and (min-width: 1700px) {
+.footer__item:nth-child(2) {
+    font-family: getFonts(main);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 0.08em;
+    padding-right: 0px;
+  }
+  .footer__item:nth-child(1){
+   padding-left: 200px;
+   padding-right: 500px;
+ }
+ .footer__social--instagram {
+    margin-left: -30px;
+    position: relative;
+  }
+  .footer__bottom {
+    background-color: getColor(primary);
+    width: 100%;
+    height: 70px;
+    padding-left: 190px;
+  }
 }
