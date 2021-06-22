@@ -1,4 +1,5 @@
 
+<<<<<<< Updated upstream
 .hero {
   display: flex;
   justify-content: center;
@@ -118,3 +119,188 @@
     letter-spacing: 0.08em;
   }
 }
+=======
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .hero {
+        margin-left: 20px;
+        margin-bottom: 60px;
+    }
+    .hero__title {
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+        margin-bottom: 30px;
+        margin-bottom: 8px;
+    }
+    .hero__text {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.08em;
+        font-weight: bold;
+        margin-top: 0px;
+        margin-bottom: 52px;
+    }
+    span {
+        color: #B9B9B9;
+        font-weight: normal;
+    }
+    span {
+        color: #FF6B09;
+        font-weight: bold;
+    }
+    .hero__picture {
+        margin-left: 36px;
+
+
+    }
+    .hero__btn {
+        width: 260px;
+        height: 48px;
+        background: #FF6B09;
+        border: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 55px;
+        margin-left: 10px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .hero {
+      width: 688px;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    .hero__title {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 130%;
+        letter-spacing: 0.03em;
+        color: #111518;
+        padding-left: 42px;
+        margin-bottom: 8px;
+        width: 350px;
+        height: 69px;
+        padding: 0;
+        margin-top: 88px;
+    }
+    .hero__text {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.08em;
+        margin: 0px;
+    }
+    .hero__picture {
+        position: absolute;
+        left: 374px;
+        top: 172.44px;
+    }
+    span {
+        color: #B9B9B9;
+        font-weight: normal;
+    }
+    span1 {
+        color: #FF6B09;
+        font-weight: bold;
+    }
+    .hero__btn {
+        width: 260px;
+        height: 48px;
+        background: #FF6B09;
+        border: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-top: 52px;
+        margin-bottom: 162px;
+    }
+}
+@media screen and (min-width: 1280px) {
+
+    .hero__title {
+        width: 642px;
+        height: 228px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 58px;
+        line-height: 130%;
+        letter-spacing: 0.03em;
+        color: #111518;
+        margin-left: 183px;
+        margin-bottom: 8px; 
+    }
+    .hero__picture2 {
+        position: absolute;
+        left: 792.7px;
+        top: 148px;
+        height: 718px;
+        width: 100%;
+        background: none;
+       }
+   .hero__picture {
+    position: absolute;
+    left: 792.7px;
+    top: 148px;
+    height: 718px;
+    width: 100%;
+    background: none;
+   }
+   .hero__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 164.9%;
+    letter-spacing: 0.08em;
+    color: #111518;
+    width: 493px;
+    height: 66px;
+    margin-left: 183px;
+    margin-top: 0px;
+    margin-bottom: 52px;
+   }
+   span {
+    color:#B9B9B9;
+    font-weight: normal;
+   }
+   .hero__btn {
+    width: 354px;
+    height: 70px;
+    background: #FF6B09;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 183px;
+    margin-bottom: 290px;
+   }
+}
+>>>>>>> Stashed changes
