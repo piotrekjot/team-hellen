@@ -9,6 +9,12 @@
   justify-content: center;
   flex-direction: row;
 }
+.header__background {
+  z-index: -1;
+  position: absolute;
+  background: #FFFFFF;
+  width: 100%;
+}
 
 @media screen and (min-width: 1200px) {
   .mobile__nav {
