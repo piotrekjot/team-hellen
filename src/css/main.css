@@ -1773,14 +1773,12 @@ body {
     font-size: 46px;
   }
   .arrow-left {
-    position: relative;
-    top: 215px;
-    right: 588px;
+    margin-left: -448px;
+    margin-top: -45px;
   }
   .arrow-right {
-    position: relative;
-    top: 190px;
-    left: 588px;
+    margin-left: -25px;
+    margin-top: -15px;
   }
   .reviews-block {
     width: 1090px;
@@ -1820,19 +1818,23 @@ body {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .teacher {
-    padding: 270px 21px 20px;
+    padding: 39px 21px 20px 50px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .teacher {
-    padding: 302px 43px 40px;
+    padding: 50px 43px 40px 50px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .teacher {
-    padding: 329px 183px 50px;
+    padding: 130px 183px 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: -109px;
   }
 }
 
@@ -2807,6 +2809,9 @@ body {
   background: linear-gradient(180deg, #111518 79%, #fff 79%);
   font-family: Montserrat;
   position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .benefits .secondary-title {
@@ -2910,7 +2915,6 @@ body {
     width: 1314px;
     height: 362px;
     justify-self: center;
-    margin-left: 183px;
     padding: 70px 112px 62px 114px;
     flex-wrap: wrap;
     justify-content: space-between;
