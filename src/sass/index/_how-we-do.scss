@@ -163,6 +163,7 @@
   .how-we-do {
     max-width: 768px;
     margin: auto;
+    padding-bottom: 30px;
   }
 
   .how-we-do__tittle {
@@ -361,11 +362,9 @@
     letter-spacing: 0.03em;
     text-align: left;
     color: getColor(primary);
-    margin-top: 110px;
-    justify-content: top;
-    align-items: top;
-
-
+    
+    margin-top: 0;
+    margin-left: -870px;
   }
 
   .how-we-do__list {

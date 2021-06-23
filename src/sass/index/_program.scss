@@ -1,31 +1,21 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .program {
     background-color: getColor(primary);
-    position: relative;
-    min-width: 480px;
+    min-width: 320px;
     min-height: 1611px;
-    &::before {
-      content: '';
-      border: 1px solid #ffffff;
-      margin-left: 30px;
-      position: absolute;
-      width: 1290px;
-      top: 778px;
-      left: -604.5px;
-      transform: rotate(90deg);
-      background-color: #ffffff;
-    }
-    &::after{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+
+    &::after {
       content: url(../images/mobile/program/program-mobile.jpg);
-      opacity: 0.5;
-     position: absolute;
-     bottom: 0px;
-     right: 65px;
-     width: 176px;  
-     height: 137px;
-     z-index: 1000;
-    mix-blend-mode:hard-light;
-    
+   
+      position: absolute;
+      bottom: -75px;
+      right: -60px;
+
     }
   }
 
@@ -33,10 +23,26 @@
   .program__list__description {
     list-style-type: none;
   }
+
   .program__list {
     margin-left: 50px;
     position: relative;
+    z-index: 3;
+    display: grid;
+   
+    &::before{
+      content: "";
+      border-left: 2px solid #FFFFFF;
+      height: 1330px;
+      position: absolute;
+      top: 50px;
+      left: 19px;
+      display: block;
+      z-index: 18;
+
+    }
   }
+
   .program__tittle {
     font-family: getFonts(main);
     font-size: 20px;
@@ -48,6 +54,9 @@
     color: #ffffff;
     padding-top: 54px;
   }
+.program__wrapper{
+  position: relative;
+}
   .program__list__tittle {
     font-family: getFonts(main);
     font-size: 14px;
@@ -58,7 +67,8 @@
     text-align: left;
     color: #ffffff;
     margin-top: 40px;
-    z-index: 100;
+    position: relative;
+
     &::before {
       content: '';
       width: 12px;
@@ -69,9 +79,12 @@
       vertical-align: middle;
       margin-left: -26px;
       margin-right: 50px;
-      z-index: 100;
+      z-index: 30;
+      position: relative;
+     
     }
   }
+
   .program__list__description {
     font-family: getFonts(main);
     font-size: 12px;
@@ -83,6 +96,7 @@
     color: getColor(accent);
     margin-top: 14px;
   }
+
   .program__list__spec {
     font-family: getFonts(main);
     font-size: 12px;
@@ -94,17 +108,19 @@
     color: getColor(secondary);
     opacity: 0.5;
   }
-  .program__brake--mobile{
+
+  .program__brake--mobile {
     display: static;
   }
-  .program__brake--tablet{
+
+  .program__brake--tablet {
     display: none;
   }
-  .program__brake--desktop{
+
+  .program__brake--desktop {
     display: none;
   }
 }
-
 @media screen and (min-width: 768px) and (max-width: 1199px) {
 .program__brake--mobile {
   display: none;
@@ -117,7 +133,7 @@
 }
 .program{
   background-color: getColor(primary);
-  min-height: 1101px;
+  max-height: 1105px;
  position: relative;
  z-index: 200;
   &::before {
@@ -135,11 +151,8 @@
     content: url(../images/tablet/program/program-tablet.jpg);
     opacity: 0.6;
     position: absolute;
-    bottom: 0px;
+    bottom: -50px;
     right: 0;
-    width: 384px;
-    height: 280px;
-    z-index: 1000;
     mix-blend-mode: hard-light;
 
   }
@@ -163,6 +176,7 @@
   display: inline-block;
   margin-left: 120px;
   position: relative;
+  max-width: 768px;
   
 }
 .program__list__tittle{
@@ -237,6 +251,9 @@
     align-items: center;
     justify-content: center;
     display: flex;
+    max-width: 100%;
+    max-height: 1157px;
+    margin-bottom: -300px;
    &::before {
      content: "";
      border: 1px solid #ffffff;
@@ -248,8 +265,8 @@
      content: url(../images/desktop/program/program-desktop.jpg);
      opacity: 0.6;
      position: absolute;
-     bottom: -225px;
-    left: 150px;
+     bottom: -205px;
+    left: -80px;
      z-index: 1;
      mix-blend-mode: hard-light;
      transform: scale(0.8);
@@ -268,8 +285,8 @@
   }
   .program__list{
     display: flex;
-    margin-left: 153px;
     margin-top: 160px;
+    margin-left: 0px;
    
   }
   .program__tittle{
@@ -295,6 +312,7 @@
     text-align: left;
     color: #ffffff;
     display: block;
+    z-index: 9000;
     &::before {
       content: '';
       width: 16px;
