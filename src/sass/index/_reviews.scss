@@ -1,8 +1,6 @@
 .reviews-section {
-  padding: 50px 0;
   display: flex;
   justify-content: center;
-  position: relative;
 }
 
 .reviews-title {
@@ -12,16 +10,18 @@
   line-height: 1.304em;
   letter-spacing: 0.03rem;
   text-align: center;
+  margin: 0;
 }
 
-.arrow-left:hover,
-.arrow-right:hover {
+.reviews-block__arrow-left:hover,
+.reviews-block__arrow-right:hover {
   cursor: pointer;
 }
 
 .reviews-block {
   background-color: #ffffff;
   box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
+  position: relative;
 }
 
 .reviews-text__person {
@@ -59,22 +59,26 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .reviews-section{
+    padding: 50px 0;
+  }
+
   .reviews-title {
     font-size: 20px;
     width: 280px;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
   }
 
-  .arrow-left {
+  .reviews-block__arrow-left {
     position: absolute;
-    top: 675px;
-    left: 20px;
+    top: 528px;
+    left: 0;
   }
 
-  .arrow-right {
+  .reviews-block__arrow-right {
     position: absolute;
-    top: 675px;
-    right: 20px;
+    top: 528px;
+    right: 5px;
   }
 
   .reviews-block {
@@ -134,22 +138,25 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .reviews-section{
+    padding: 50px 0;
+  }
+
   .reviews-title {
     font-size: 26px;
-    margin-left: 30px;
     margin-bottom: 30px;
   }
 
-  .arrow-left {
+  .reviews-block__arrow-left {
     position: absolute;
-    top: 280px;
-    left: 25px;
+    top: 150px;
+    left: -15px;
   }
 
-  .arrow-right {
+  .reviews-block__arrow-right {
     position: absolute;
-    top: 280px;
-    right: 25px;
+    top: 150px;
+    right: -15px;
   }
 
   .reviews-block {
@@ -192,18 +199,25 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .reviews-section{
+    padding: 130px 0;
+  }
+
   .reviews-title {
     font-size: 46px;
+    margin-bottom: 50px;
   }
 
-  .arrow-left {
-    margin-left: -448px;
-    margin-top: -45px;
+  .reviews-block__arrow-left {
+    position: absolute;
+    top: 160px;
+    left: -55px;
   }
 
-  .arrow-right {
-    margin-left: -25px;
-    margin-top: -15px;
+  .reviews-block__arrow-right {
+    position: absolute;
+    top: 160px;
+    right: -55px;
   }
 
   .reviews-block {
