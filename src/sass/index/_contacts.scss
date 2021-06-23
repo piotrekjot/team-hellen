@@ -1,3 +1,9 @@
+.contacts__input:not(:placeholder-shown):required:valid {
+   background-color: #00000000;
+ }
+ .contacts__input:not(:placeholder-shown):required:invalid{
+   background-color: #ff0000;
+ }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .contacts {
     background: url(../images/mobile/contacts/bg_contacts.png);
@@ -270,4 +276,11 @@
     border: none;
     cursor: pointer;
   }
+ .contacts__input:not(:placeholder-shown):required:valid {
+   background-color: #00000000;
+ }
+ .contacts__input:not(:placeholder-shown):required:invalid{
+   background-color: #ff0000;
+ }
+ 
 }
