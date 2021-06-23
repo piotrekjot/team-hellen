@@ -1027,6 +1027,17 @@ body {
     transform: rotate(90deg);
     background-color: #ffffff;
   }
+  .program::after {
+    content: url(../images/mobile/program/program-mobile.jpg);
+    opacity: 0.5;
+    position: absolute;
+    bottom: 0px;
+    right: 65px;
+    width: 176px;
+    height: 137px;
+    z-index: 1000;
+    mix-blend-mode: hard-light;
+  }
   .program__list,
   .program__list__description {
     list-style-type: none;
@@ -1130,6 +1141,17 @@ body {
     transform: rotate(90deg);
     background-color: #ffffff;
   }
+  .program::after {
+    content: url(../images/tablet/program/program-tablet.jpg);
+    opacity: 0.6;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    width: 384px;
+    height: 280px;
+    z-index: 1000;
+    mix-blend-mode: hard-light;
+  }
   .program__tittle {
     font-family: Montserrat;
     font-size: 26px;
@@ -1222,6 +1244,16 @@ body {
     width: 100%;
     top: 300px;
     position: absolute;
+  }
+  .program::after {
+    content: url(../images/desktop/program/program-desktop.jpg);
+    opacity: 0.6;
+    position: absolute;
+    bottom: -225px;
+    left: 150px;
+    z-index: 1;
+    mix-blend-mode: hard-light;
+    transform: scale(0.8);
   }
   .program__brake--mobile {
     display: none;
@@ -2139,10 +2171,14 @@ body {
 .problems {
   background: linear-gradient(180deg, #111518 79%, #fff 79%);
   font-family: Montserrat;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .problems .secondary-title {
   color: #fff;
+  margin-top: 0;
 }
 
 .problems__list {
@@ -2153,6 +2189,7 @@ body {
   box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
   list-style: none;
   padding: 0;
+  justify-self: center;
 }
 
 .problems__item {
@@ -2174,13 +2211,11 @@ body {
     width: 280px;
     height: 170px;
     font-size: 24px;
-    margin: auto;
     justify-self: left;
   }
   .problems__list {
     width: 280px;
     height: 488px;
-    justify-self: center;
     font-size: 14px;
     margin-top: 25px;
   }
@@ -2243,6 +2278,9 @@ body {
   .problems__list {
     position: absolute;
     padding: 70px 112px 62px 114px;
+    width: 1314px;
+    height: 362px;
+    z-index: 3;
   }
   .problems__list--position {
     position: relative;
@@ -2263,7 +2301,7 @@ body {
   .problems__icon {
     position: absolute;
     left: 1090px;
-    top: -262.5px;
+    top: -226px;
     fill: #3d3d3d;
     width: 446px;
     height: 471px;
@@ -2285,6 +2323,7 @@ body {
     font-size: 14px;
     line-height: 1.286;
     letter-spacing: 0.03em;
+    margin: auto;
     margin-bottom: 50px;
     font-weight: 800;
     color: #fff;
@@ -2603,6 +2642,7 @@ body {
   .footer__list {
     list-style: none;
     padding-top: 40px;
+    padding-left: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -2632,6 +2672,7 @@ body {
     letter-spacing: 0.08em;
     border-right: 1px solid #b9b9b9;
     padding-right: 24px;
+    padding-left: 70px;
   }
   .footer__link {
     text-decoration: none;
@@ -2657,13 +2698,13 @@ body {
     font-style: normal;
     font-size: 14px;
     line-height: 2;
-    padding-left: 40px;
+    padding-left: 55px;
     padding-top: 21px;
     padding-bottom: 21px;
     text-align: left;
   }
   .footer__social--instagram {
-    margin-left: -100px;
+    margin-left: -80px;
   }
 }
 
@@ -2695,6 +2736,7 @@ body {
     font-size: 30px;
     line-height: 1.2;
     letter-spacing: 0.08em;
+    padding-right: 220px;
   }
   .footer__link {
     text-decoration: none;
@@ -2719,7 +2761,7 @@ body {
     background-color: #111518;
     width: 100%;
     height: 70px;
-    padding-left: 183px;
+    padding-left: 90px;
   }
   .footer__bottom--color {
     color: #b9b9b9;
@@ -2733,8 +2775,37 @@ body {
     text-align: left;
   }
   .footer__social--instagram {
-    margin-left: -370px;
+    margin-left: -450px;
     position: relative;
+  }
+  .footer__item:nth-child(1) {
+    padding-left: 100px;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .footer__item:nth-child(2) {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 0.08em;
+    padding-right: 0px;
+  }
+  .footer__item:nth-child(1) {
+    padding-left: 200px;
+    padding-right: 500px;
+  }
+  .footer__social--instagram {
+    margin-left: -30px;
+    position: relative;
+  }
+  .footer__bottom {
+    background-color: #111518;
+    width: 100%;
+    height: 70px;
+    padding-left: 190px;
   }
 }
 
