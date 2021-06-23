@@ -2892,6 +2892,7 @@ body {
     height: 104px;
     font-size: 24px;
     padding-bottom: 25px;
+    text-align: center;
   }
   .benefits__list {
     width: 688px;
@@ -2902,6 +2903,7 @@ body {
     justify-content: space-evenly;
     align-self: flex-end;
     margin-top: 90px;
+    margin: 0 auto;
   }
   .benefits__item {
     width: 236px;
