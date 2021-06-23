@@ -1,14 +1,18 @@
 .teacher {
     @media screen and (min-width: 320px) and (max-width: 767px) {
-      padding: 270px 21px 20px;
+      padding: 39px 21px 20px 50px;
     }
   
     @media screen and (min-width: 768px) and (max-width: 1199px) {
-      padding: 302px 43px 40px;
+      padding: 50px 43px 40px 50px;
     }
   
     @media screen and (min-width: 1200px) {
-      padding: 329px 183px 50px;
+      padding: 130px 183px 50px;
+      align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: -109px;
     }
   }
   
@@ -20,6 +24,7 @@
       line-height: 130%;
       letter-spacing: 0.03em;
       font-family: getFonts('main');
+      margin-top: 0;
     }
   
     @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -30,6 +35,7 @@
       line-height: 130%;
       letter-spacing: 0.03em;
       font-family: getFonts('main');
+      margin-top: 0;
     }
   
     @media screen and (min-width: 1200px) {
@@ -40,6 +46,7 @@
       font-size: 46px;
       line-height: 130%;
       letter-spacing: 0.03em;
+      margin-top: 0;
     }
   }
   

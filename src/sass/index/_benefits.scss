@@ -2,6 +2,9 @@
   background: linear-gradient(180deg, #111518 79%, #fff 79%);
   font-family: getFonts('main');
   position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 
   & .secondary-title {
     color: #fff;
@@ -116,7 +119,6 @@
       width: 1314px;
       height: 362px;
       justify-self: center;
-      margin-left: 183px;
       padding: 70px 112px 62px 114px;
       flex-wrap: wrap;
       justify-content: space-between;
