@@ -122,7 +122,7 @@
     text-transform: uppercase;
     color: #b9b9b9;
     text-decoration: none;
-    padding-right: 40px;
+    padding-right: 46px;
   }
   .header__menu--btn {
     width: 336px;
@@ -137,7 +137,7 @@
     text-transform: uppercase;
     color: #ff6b09;
     background: none;
-    margin-left: 46px;
+    margin-left: 50px;
   }
 }
 
@@ -604,8 +604,8 @@
 
 @media screen and (min-width: 1280px) {
   .hero {
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 183px;
+    padding-right: 183px;
   }
   .hero__title {
     width: 642px;
@@ -622,7 +622,7 @@
   }
   .hero__picture {
     position: absolute;
-    left: 655px;
+    left: 800px;
     top: 148px;
     height: 718px;
     background: none;
