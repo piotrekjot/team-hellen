@@ -313,8 +313,6 @@
     font-weight: 800;
     line-height: 26px;
     letter-spacing: 0.03em;
-    margin-bottom: 30px;
-    margin-bottom: 8px;
   }
   .hero__text {
     font-family: Montserrat;
@@ -371,10 +369,6 @@
     color: #111518;
     padding-left: 42px;
     margin-bottom: 8px;
-    width: 350px;
-    height: 69px;
-    padding: 0;
-    margin-top: 88px;
   }
   .hero__text {
     font-family: Montserrat;
@@ -427,8 +421,6 @@
     line-height: 130%;
     letter-spacing: 0.03em;
     color: #111518;
-    margin-left: 183px;
-    margin-bottom: 8px;
   }
   .hero__picture2 {
     position: absolute;
