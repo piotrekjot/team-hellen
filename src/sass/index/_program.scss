@@ -11,11 +11,10 @@
 
     &::after {
       content: url(../images/mobile/program/program-mobile.jpg);
-   
+
       position: absolute;
       bottom: -75px;
-      right: -60px;
-
+      right: 0px;
     }
   }
 
@@ -29,17 +28,16 @@
     position: relative;
     z-index: 3;
     display: grid;
-   
-    &::before{
-      content: "";
-      border-left: 2px solid #FFFFFF;
+
+    &::before {
+      content: '';
+      border-left: 2px solid #ffffff;
       height: 1330px;
       position: absolute;
       top: 50px;
       left: 19px;
       display: block;
       z-index: 18;
-
     }
   }
 
@@ -54,9 +52,9 @@
     color: #ffffff;
     padding-top: 54px;
   }
-.program__wrapper{
-  position: relative;
-}
+  .program__wrapper {
+    position: relative;
+  }
   .program__list__tittle {
     font-family: getFonts(main);
     font-size: 14px;
@@ -81,7 +79,6 @@
       margin-right: 50px;
       z-index: 30;
       position: relative;
-     
     }
   }
 
@@ -121,131 +118,124 @@
     display: none;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-.program__brake--mobile {
-  display: none;
-}
-.program__brake--tablet{
-  display: static;
-}
-.program__brake--desktop{
-  display: none;
-}
-.program{
-  background-color: getColor(primary);
-  max-height: 1105px;
- position: relative;
- z-index: 200;
-  &::before {
-    content: '';
-    border: 1px solid #ffffff;
-    margin-left: 30px;
-    position: absolute;
-    width: 778px;
-    top: 535px;
-    left: -308.5px;
-    transform: rotate(90deg);
-    background-color: #ffffff;
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .program__brake--mobile {
+    display: none;
   }
-  &::after {
-    content: url(../images/tablet/program/program-tablet.jpg);
-    opacity: 0.6;
-    position: absolute;
-    bottom: -50px;
-    right: 0;
-    mix-blend-mode: hard-light;
-
+  .program__brake--tablet {
+    display: static;
   }
-}
-.program__tittle{
-  font-family: getFonts(main);
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.307;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #ffffff;
-  padding-top: 60px;
-  margin-left: 40px;
-  
- 
-}
-.program__list{
-  list-style: none;
-  display: inline-block;
-  margin-left: 120px;
-  position: relative;
-  max-width: 768px;
-  
-}
-.program__list__tittle{
-  font-family: getFonts(main);
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 2;
-  letter-spacing: 0.08em;
-  text-align: left;
-  color: #ffffff;
-  display: inline-block;
-  text-transform: uppercase;
-
-  z-index: 100;
-  
-  &::before {
-    content: '';
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
+  .program__brake--desktop {
+    display: none;
+  }
+  .program {
+    background-color: getColor(primary);
+    max-height: 1105px;
+    position: relative;
+    z-index: 200;
+    &::before {
+      content: '';
+      border: 1px solid #ffffff;
+      margin-left: 30px;
+      position: absolute;
+      width: 778px;
+      top: 535px;
+      left: -308.5px;
+      transform: rotate(90deg);
+      background-color: #ffffff;
+    }
+    &::after {
+      content: url(../images/tablet/program/program-tablet.jpg);
+      opacity: 0.6;
+      position: absolute;
+      bottom: -50px;
+      right: 0;
+      mix-blend-mode: hard-light;
+    }
+  }
+  .program__tittle {
+    font-family: getFonts(main);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.307;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #ffffff;
+    padding-top: 60px;
+    margin-left: 40px;
+  }
+  .program__list {
+    list-style: none;
     display: inline-block;
-    background-color: getColor(accent);
-    vertical-align: middle;
-    margin-left: -55px;
-    margin-right: 45px;
+    margin-left: 120px;
+    position: relative;
+    max-width: 768px;
+  }
+  .program__list__tittle {
+    font-family: getFonts(main);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.08em;
+    text-align: left;
+    color: #ffffff;
+    display: inline-block;
+    text-transform: uppercase;
+
     z-index: 100;
+
+    &::before {
+      content: '';
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      display: inline-block;
+      background-color: getColor(accent);
+      vertical-align: middle;
+      margin-left: -55px;
+      margin-right: 45px;
+      z-index: 100;
+    }
   }
 
+  .program__list__description {
+    display: inline-block;
+    margin-top: 40px;
+    text-transform: none;
+    font-family: getFonts(main);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.667;
+    letter-spacing: 0.08em;
+    text-align: left;
+    color: getColor(accent);
+    margin-left: -40px;
+    padding-right: 90px;
+    margin-top: 13px;
+  }
+  .program__list__spec {
+    display: flex;
+    max-width: 143px;
+    font-family: getFonts(main);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.667;
+    letter-spacing: 0.08em;
+    text-align: left;
+    color: getColor(secondary);
+    opacity: 0.5;
+    margin-bottom: 36px;
+  }
+  .program__list__description--space {
+    margin-right: 50.5px;
+  }
 }
-
-.program__list__description{
- display: inline-block;
- margin-top: 40px;
- text-transform: none;
- font-family: getFonts(main);
- font-size: 12px;
- font-style: normal;
- font-weight: 700;
- line-height: 1.667;
- letter-spacing: 0.08em;
- text-align: left;
- color: getColor(accent);
- margin-left: -40px;
- padding-right: 90px;
- margin-top: 13px;
-
-}
-.program__list__spec{
-  display: flex;
-  max-width: 143px;
-  font-family: getFonts(main);
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.667;
-  letter-spacing: 0.08em;
-  text-align: left;
-  color:getColor(secondary);
-  opacity: 0.5;
-  margin-bottom: 36px;
-
-}
-.program__list__description--space{
-  margin-right: 50.5px;
-}
-}
-@media screen and (min-width: 1200px){
-  .program{
+@media screen and (min-width: 1280px) {
+  .program {
     background-color: getColor(primary);
     position: relative;
     align-items: center;
@@ -254,42 +244,39 @@
     max-width: 100%;
     max-height: 1157px;
     margin-bottom: -300px;
-   &::before {
-     content: "";
-     border: 1px solid #ffffff;
-     width: 100%;
-     top: 300px;
-     position: absolute;
-   }
-   &::after {
-     content: url(../images/desktop/program/program-desktop.jpg);
-     opacity: 0.6;
-     position: absolute;
-     bottom: -205px;
-    left: -80px;
-     z-index: 1;
-     mix-blend-mode: hard-light;
-     transform: scale(0.8);
-
-   }
-   
-}
+    &::before {
+      content: '';
+      border: 1px solid #ffffff;
+      width: 100%;
+      top: 300px;
+      position: absolute;
+    }
+    &::after {
+      content: url(../images/desktop/program/program-desktop.jpg);
+      opacity: 0.6;
+      position: absolute;
+      bottom: -205px;
+      left: -80px;
+      z-index: 1;
+      mix-blend-mode: hard-light;
+      transform: scale(0.8);
+    }
+  }
   .program__brake--mobile {
     display: none;
   }
-  .program__brake--tablet{
+  .program__brake--tablet {
     display: none;
   }
-  .program__brake--desktop{
+  .program__brake--desktop {
     display: static;
   }
-  .program__list{
+  .program__list {
     display: flex;
     margin-top: 160px;
     margin-left: 0px;
-   
   }
-  .program__tittle{
+  .program__tittle {
     font-family: getFonts(main);
     font-size: 46px;
     font-style: normal;
@@ -300,9 +287,8 @@
     color: #ffffff;
     margin-left: 184px;
     padding-top: 120px;
-    
   }
-  .program__list__tittle{
+  .program__list__tittle {
     font-family: getFonts(main);
     font-size: 30px;
     font-style: normal;
@@ -326,7 +312,7 @@
       top: 292px;
     }
   }
-  .program__list__description{
+  .program__list__description {
     font-family: getFonts(main);
     font-size: 20px;
     font-style: normal;
@@ -339,7 +325,7 @@
     margin-left: -40px;
     margin-right: 62px;
   }
-  .program__list__spec{
+  .program__list__spec {
     color: getColor(secondary);
     font-family: getFonts(main);
     font-size: 18px;
@@ -350,6 +336,5 @@
     text-align: left;
     opacity: 0.5;
     padding-bottom: -30px;
-    
-}
+  }
 }

@@ -1,7 +1,6 @@
-
 .header__background {
-    z-index: -1;
-    position: absolute;
+  z-index: -1;
+  position: absolute;
 }
 .is-hidden {
   opacity: 0;
@@ -44,9 +43,7 @@
   font-size: 20px;
   line-height: 180%;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
-
-
+  color: #ffffff;
 }
 .mobile__link:hover {
   color: #ff6b09;
@@ -60,12 +57,13 @@
     padding-right: 90px;
     padding-top: 33px;
     padding-bottom: 46px;
+    justify-self: center;
   }
   .header__background {
     width: 100%;
     bottom: -460;
   }
-.mobile__nav {
+  .mobile__nav {
     display: none;
   }
   .mobile__menu {
@@ -78,9 +76,8 @@
     width: 128px;
     height: 45px;
     margin-right: 104px;
-    
   }
-  .header__nav{
+  .header__nav {
     display: flex;
     align-items: center;
   }
@@ -101,7 +98,7 @@
     align-items: center;
     text-align: center;
     text-transform: uppercase;
-    color: #B9B9B9;
+    color: #b9b9b9;
     text-decoration: none;
     padding-right: 56px;
   }
@@ -121,76 +118,74 @@
     margin-left: 20px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1279px){
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .header {
     padding-left: 40px;
     padding-right: 40px;
     display: flex;
     justify-content: space-evenly;
   }
-    .mobile__menu {
-        display: flex;
-        align-items: center;
-    }
-    .mobile__list {
-      padding-left: 0px;
-      padding-top: 80px;
-    }
-    .header__logo {
-        width: 128px;
-        height: 45px;
-        margin-right: 239px;
-    }
-    .header__logo--dark {
-        fill: #ffffff;
-        width: 128px;
-        height: 45px;
-        position: absolute;
-    }
-    .menu__logo {
-        width: 40px;
-        height: 40px;
-        padding: 0px;
-        margin-left: 30px;
-    }
-    .header__nav {
-        display: none;
-    }
-    .header__title {
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 26px;
-        line-height: 130%;
-        letter-spacing: 0.03em;
-        color: #111518;
-    }
-    .header__menu--btn {
-        border: 2px solid #FF6B09;
-        font-family: Montserrat;
-        width: 260px;
-        height: 48px;
-        background: rgba(17, 21, 24, 0.9);
-        color: #ff6b09;
-        font-weight: bold;
-
-    }
-    .header__list {
-        font-family: Montserrat;
-        list-style: none;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 20px;
-        line-height: 180%;
-        letter-spacing: 0.03em;
-        color: #FFFFFF;
-
-    }
-    .header__link {
-        font-family: Montserrat;
-        text-decoration: none;
-    }
-    .mobile__menu {
+  .mobile__menu {
+    display: flex;
+    align-items: center;
+  }
+  .mobile__list {
+    padding-left: 0px;
+    padding-top: 80px;
+  }
+  .header__logo {
+    width: 128px;
+    height: 45px;
+    margin-right: 239px;
+  }
+  .header__logo--dark {
+    fill: #ffffff;
+    width: 128px;
+    height: 45px;
+    position: absolute;
+  }
+  .menu__logo {
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    margin-left: 30px;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #111518;
+  }
+  .header__menu--btn {
+    border: 2px solid #ff6b09;
+    font-family: Montserrat;
+    width: 260px;
+    height: 48px;
+    background: rgba(17, 21, 24, 0.9);
+    color: #ff6b09;
+    font-weight: bold;
+  }
+  .header__list {
+    font-family: Montserrat;
+    list-style: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 180%;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
+  .header__link {
+    font-family: Montserrat;
+    text-decoration: none;
+  }
+  .mobile__menu {
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -218,7 +213,7 @@
     transform: translateX(100%);
     overflow: hidden;
   }
-  
+
   .mobile__link {
     text-decoration: none;
     font-family: Montserrat;
@@ -260,8 +255,8 @@
     color: #ff6b09;
     width: 260px;
     height: 48px;
-    border: 2px solid #FF6B09;
-    background:#FFFFFF;
+    border: 2px solid #ff6b09;
+    background: #ffffff;
   }
   .mobile__menu--btn {
     display: none;
@@ -270,9 +265,9 @@
     left: 709px;
     top: 52px;
   }
-  .backdrop{
-  padding: 40px;
-}
+  .backdrop {
+    padding: 40px;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .header {
@@ -327,9 +322,58 @@
     }
     .mobile__menu {
     display: flex;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 52px;
+  }
+  .header__logo {
+    width: 80px;
+    height: 29px;
+    margin-right: 171px;
+  }
+  .header__logo--dark {
+    fill: white;
+    width: 80px;
+    height: 29px;
+    position: absolute;
+  }
+  .menu__logo {
+    width: 40px;
+    height: 40px;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__menu--btn {
+    border: 2px solid #ff6b09;
+    font-family: Montserrat;
+    width: 260px;
+    height: 48px;
+    background: rgba(17, 21, 24, 0.9);
+    color: #ff6b09;
+    font-weight: bold;
+  }
+  .header__list {
+    font-family: Montserrat;
+    list-style: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 180%;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
+  .header__link {
+    font-family: Montserrat;
+    text-decoration: none;
+  }
+  .mobile__menu {
+    display: flex;
     align-content: center;
     align-items: center;
     justify-content: space-between;
+    width: 440px;
   }
   .mobile__btn {
     border: none;
@@ -337,76 +381,76 @@
   .header__btn {
     display: none;
   }
-.mobile__nav {
-  padding-left: 20px;
-  padding-top: 34px;
-  padding-left: 40px;
-  padding-top: 40px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 568px;
-  background: rgba(17, 21, 24, 0.9);
-  display: flex;
-  box-sizing: border-box;
-  position: absolute;
-  width: 100%;
-  transform: translateX(100%);
-  overflow: hidden;
-}
-.mobile__list {
-  list-style: none;
-
-}
-.backdrop {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 30px;
-}
-.close__btn {
-  left: 0px;
-  top: 0px;
-}
-.mobile {
-  display: flex;
-  justify-content: center;
-}
-.mobile__list {
-  margin: 0px;
-  padding: 0px;
-  padding-top: 100px;
-}
-.backdrop {
-  display: flex;
-}
-.mobile__menu--btn {
-  width: 260px;
-  height: 48px;
-  left: 30px;
-  top: 297.53px;
-  border: 2px solid #FF6B09;
-  box-sizing: border-box;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #FF6B09;
-  background:none;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.mobile__link {
-font-family: Montserrat;
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 180%;
-letter-spacing: 0.03em;
-color: #FFFFFF;
+  .mobile__nav {
+    padding-left: 20px;
+    padding-top: 34px;
+    padding-left: 40px;
+    padding-top: 40px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 568px;
+    background: rgba(17, 21, 24, 0.9);
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    transform: translateX(100%);
+    overflow: hidden;
+  }
+  .mobile__list {
+    list-style: none;
+  }
+  .backdrop {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+  }
+  .close__btn {
+    left: 0px;
+    top: 0px;
+  }
+  .mobile {
+    display: flex;
+    justify-content: center;
+  }
+  .mobile__list {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 100px;
+  }
+  .backdrop {
+    display: flex;
+  }
+  .mobile__menu--btn {
+    width: 260px;
+    height: 48px;
+    left: 30px;
+    top: 297.53px;
+    border: 2px solid #ff6b09;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #ff6b09;
+    background: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .mobile__link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 180%;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
 }
 .close__btn {
   left: 440px;
