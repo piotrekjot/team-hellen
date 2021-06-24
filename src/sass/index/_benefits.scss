@@ -41,7 +41,7 @@
       width: 280px;
       height: 170px;
       font-size: 24px;
-      margin:auto;
+      margin: auto;
       justify-self: center;
     }
 
@@ -70,7 +70,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .benefits {
     height: 500px;
 
@@ -103,7 +103,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .benefits {
     position: relative;
     height: 710px;
