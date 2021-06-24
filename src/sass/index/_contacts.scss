@@ -1,9 +1,9 @@
 .contacts__input:not(:placeholder-shown):required:valid {
-   background-color: #00000000;
- }
- .contacts__input:not(:placeholder-shown):required:invalid{
-   background-color: #ff0000;
- }
+  background-color: #00000000;
+}
+.contacts__input:not(:placeholder-shown):required:invalid {
+  background-color: #ff0000;
+}
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .contacts {
     background: url(../images/mobile/contacts/bg_contacts.png);
@@ -26,7 +26,7 @@
     margin-bottom: 50px;
     font-weight: 800;
     color: #fff;
-    width: 280px; 
+    width: 280px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -44,7 +44,7 @@
     color: #fff;
     margin-bottom: 30px;
     font-weight: 600;
-    width: 280px; 
+    width: 280px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -95,14 +95,14 @@
 }
 
 @media screen and (min-width: 582px) and (max-width: 766px) {
-.contacts__input-container {
+  .contacts__input-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .contacts {
     background: url(../images/tablet/contacts/contacts_tablet.png);
     background-color: getColor(primary);
@@ -151,7 +151,6 @@
 
   .contacts__text--color {
     color: getColor(accent);
-    
   }
   .contacts__title--color {
     color: getColor(accent);
@@ -199,7 +198,7 @@
     cursor: pointer;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .contacts {
     background: url(../images/desktop/contacts/contacts_desktop.png);
     background-color: getColor(primary);
@@ -287,11 +286,10 @@
     border: none;
     cursor: pointer;
   }
- .contacts__input:not(:placeholder-shown):required:valid {
-   background-color: #00000000;
- }
- .contacts__input:not(:placeholder-shown):required:invalid{
-   background-color: #ff0000;
- }
- 
+  .contacts__input:not(:placeholder-shown):required:valid {
+    background-color: #00000000;
+  }
+  .contacts__input:not(:placeholder-shown):required:invalid {
+    background-color: #ff0000;
+  }
 }

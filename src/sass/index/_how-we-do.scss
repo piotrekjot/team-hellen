@@ -8,13 +8,11 @@
     letter-spacing: 0.03em;
     text-align: center;
     margin-bottom: 30px;
-
   }
 
   .how-we-do__list {
     display: block;
     list-style-type: none;
-
   }
 
   .how-we-do__item {
@@ -25,30 +23,29 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
-
   }
-.how-we-do__item:nth-child(6)>.how-we-do__item__description{
-  margin-top: 30px;
-}
-.how-we-do__item:nth-child(5)>.how-we-do__item__description {
-  margin-top: 65px;
-}
-.how-we-do__item:nth-child(4)>.how-we-do__item__description {
-  margin-top: 40px;
-}
-.how-we-do__item:nth-child(3)>.how-we-do__item__description {
-  margin-top: 70px;
-}
-.how-we-do__item:nth-child(2)>.how-we-do__item__description {
-  margin-top: 40px;
-}
-.how-we-do__item:nth-child(1)>.how-we-do__item__description {
-  margin-top: 40px;
-}
+  .how-we-do__item:nth-child(6) > .how-we-do__item__description {
+    margin-top: 30px;
+  }
+  .how-we-do__item:nth-child(5) > .how-we-do__item__description {
+    margin-top: 65px;
+  }
+  .how-we-do__item:nth-child(4) > .how-we-do__item__description {
+    margin-top: 40px;
+  }
+  .how-we-do__item:nth-child(3) > .how-we-do__item__description {
+    margin-top: 70px;
+  }
+  .how-we-do__item:nth-child(2) > .how-we-do__item__description {
+    margin-top: 40px;
+  }
+  .how-we-do__item:nth-child(1) > .how-we-do__item__description {
+    margin-top: 40px;
+  }
 
   .how-we-do__icon1 {
-    Width: 44.61px;
-    Height: 48.06px;
+    width: 44.61px;
+    height: 48.06px;
     margin-left: 120px;
     margin-top: 20px;
     fill: getColor(accent);
@@ -105,17 +102,15 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-   
-     &::after {
-       content: "—";
-       position: absolute;
-       top: 140px;
-       left: 50%;
-       color: getColor(accent);
-     }
 
+    &::after {
+      content: '—';
+      position: absolute;
+      top: 140px;
+      left: 50%;
+      color: getColor(accent);
+    }
   }
-
 
   .how-we-do__item__description {
     font-family: getFonts(main);
@@ -128,21 +123,18 @@
     color: getColor(secondary);
     margin-left: auto;
     margin-right: auto;
-
   }
 
-
-
   .how-we-do__item:hover,
-  .how-we-do__item:hover>.how-we-do__item__tittle,
-  .how-we-do__item:hover>.how-we-do__item__description,
-  .how-we-do__item:hover>.how-we-do__icon1,
-  .how-we-do__item:hover>.how-we-do__icon2,
-  .how-we-do__item:hover>.how-we-do__icon3,
-  .how-we-do__item:hover>.how-we-do__icon4,
-  .how-we-do__item:hover>.how-we-do__icon5,
-  .how-we-do__item:hover>.how-we-do__icon6,
-  .how-we-do__item:hover>.how-we-do__item__tittle::after {
+  .how-we-do__item:hover > .how-we-do__item__tittle,
+  .how-we-do__item:hover > .how-we-do__item__description,
+  .how-we-do__item:hover > .how-we-do__icon1,
+  .how-we-do__item:hover > .how-we-do__icon2,
+  .how-we-do__item:hover > .how-we-do__icon3,
+  .how-we-do__item:hover > .how-we-do__icon4,
+  .how-we-do__item:hover > .how-we-do__icon5,
+  .how-we-do__item:hover > .how-we-do__icon6,
+  .how-we-do__item:hover > .how-we-do__item__tittle::after {
     color: white;
     background-color: getColor(accent);
     fill: white;
@@ -151,15 +143,15 @@
   .how-we-do__brake--desktop {
     display: none;
   }
-  .how-we-do__brake--tablet{
+  .how-we-do__brake--tablet {
     display: none;
   }
-  .how-we-do__brake--mobile{
+  .how-we-do__brake--mobile {
     display: static;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .how-we-do {
     max-width: 768px;
     margin: auto;
@@ -182,19 +174,16 @@
     flex-wrap: wrap;
     margin-left: -40px;
     margin-top: -27px;
-
   }
 
   .how-we-do__item {
     height: 334px;
     max-width: 334px;
-    box-shadow: 0px 8px 26px 0px #0000001A;
+    box-shadow: 0px 8px 26px 0px #0000001a;
     margin-left: 40px;
     margin-top: 27px;
     flex-basis: calc(100% / 2 - 40px);
-
   }
-
 
   .how-we-do__item__tittle {
     font-family: getFonts(main);
@@ -206,13 +195,13 @@
     text-align: center;
     color: getColor(primary);
     position: relative;
-      &::after {
-        content: "—";
-        position: absolute;
-        top: 55px;
-        left: 50%;
-        color: getColor(accent);
-      }
+    &::after {
+      content: '—';
+      position: absolute;
+      top: 55px;
+      left: 50%;
+      color: getColor(accent);
+    }
   }
 
   .how-we-do__item__description {
@@ -225,9 +214,7 @@
     text-align: center;
     color: getColor(secondary);
     margin-top: 40px;
-
   }
-
 
   .how-we-do__icon1 {
     fill: getColor(accent);
@@ -239,12 +226,11 @@
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     margin-top: 30px;
-
   }
 
   .how-we-do__icon2 {
     height: 47px;
-    width: 46.10px;
+    width: 46.1px;
     fill: getColor(accent);
     position: relative;
     left: 50%;
@@ -252,13 +238,12 @@
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     margin-top: 30px;
-
   }
 
   .how-we-do__icon3 {
     fill: getColor(accent);
-    Width: 68px;
-    Height: 48px;
+    width: 68px;
+    height: 48px;
     position: relative;
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -269,8 +254,8 @@
 
   .how-we-do__icon4 {
     fill: getColor(accent);
-    Width: 48px;
-    Height: 48px;
+    width: 48px;
+    height: 48px;
     position: relative;
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -281,8 +266,8 @@
 
   .how-we-do__icon5 {
     fill: getColor(accent);
-    Width: 39px;
-    Height: 48px;
+    width: 39px;
+    height: 48px;
     position: relative;
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -293,8 +278,8 @@
 
   .how-we-do__icon6 {
     fill: getColor(accent);
-    Width: 57px;
-    Height: 48px;
+    width: 57px;
+    height: 48px;
     position: relative;
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -304,29 +289,29 @@
   }
 
   .how-we-do__item:hover,
-  .how-we-do__item:hover>.how-we-do__item__tittle,
-  .how-we-do__item:hover>.how-we-do__item__description,
-  .how-we-do__item:hover>.how-we-do__icon1,
-  .how-we-do__item:hover>.how-we-do__icon2,
-  .how-we-do__item:hover>.how-we-do__icon3,
-  .how-we-do__item:hover>.how-we-do__icon4,
-  .how-we-do__item:hover>.how-we-do__icon5,
-  .how-we-do__item:hover>.how-we-do__icon6,
-  .how-we-do__item:hover>.how-we-do__item__tittle::after {
+  .how-we-do__item:hover > .how-we-do__item__tittle,
+  .how-we-do__item:hover > .how-we-do__item__description,
+  .how-we-do__item:hover > .how-we-do__icon1,
+  .how-we-do__item:hover > .how-we-do__icon2,
+  .how-we-do__item:hover > .how-we-do__icon3,
+  .how-we-do__item:hover > .how-we-do__icon4,
+  .how-we-do__item:hover > .how-we-do__icon5,
+  .how-we-do__item:hover > .how-we-do__icon6,
+  .how-we-do__item:hover > .how-we-do__item__tittle::after {
     color: white;
     background-color: getColor(accent);
     fill: white;
   }
 
-  .how-we-do__item:nth-child(3)>.how-we-do__item__description{
+  .how-we-do__item:nth-child(3) > .how-we-do__item__description {
     padding-top: 30px;
   }
-  .how-we-do__item:nth-child(6)>.how-we-do__item__description{
+  .how-we-do__item:nth-child(6) > .how-we-do__item__description {
     margin-top: 30px;
   }
-   .how-we-do__item:nth-child(5)>.how-we-do__item__description {
-     margin-top: 55px;
-   }
+  .how-we-do__item:nth-child(5) > .how-we-do__item__description {
+    margin-top: 55px;
+  }
   .how-we-do__brake--desktop {
     display: none;
   }
@@ -340,7 +325,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .how-we-do {
     align-items: center;
     justify-content: center;
@@ -349,8 +334,6 @@
     margin-left: auto;
     margin-right: auto;
     min-height: 1200px;
-
-
   }
 
   .how-we-do__tittle {
@@ -362,7 +345,7 @@
     letter-spacing: 0.03em;
     text-align: left;
     color: getColor(primary);
-    
+
     margin-top: 0;
     margin-left: -870px;
   }
@@ -376,14 +359,12 @@
     margin-left: -20px;
     justify-content: center;
     align-items: center;
-
-
   }
 
   .how-we-do__item {
     width: 425px;
     height: 396px;
-    box-shadow: 0px 8px 26px 0px #0000001A;
+    box-shadow: 0px 8px 26px 0px #0000001a;
     margin-top: 20px;
     margin-left: 20px;
     flex-basis: calc(100% / 3 - 20px);
@@ -391,7 +372,6 @@
     flex-direction: column;
 
     align-items: center;
-
   }
 
   .how-we-do__icon1 {
@@ -453,7 +433,7 @@
     padding-top: 10px;
 
     &::after {
-      content: "—";
+      content: '—';
       position: absolute;
       margin-top: 50px;
       left: 50%;
@@ -471,25 +451,22 @@
     text-align: center;
     color: getColor(secondary);
     margin-top: 50px;
-
   }
 
-  .how-we-do__item:nth-child(5)>.how-we-do__item__tittle {
+  .how-we-do__item:nth-child(5) > .how-we-do__item__tittle {
     max-width: 254px;
   }
 
-  .how-we-do__item:nth-child(2)>.how-we-do__item__tittle>br {
+  .how-we-do__item:nth-child(2) > .how-we-do__item__tittle > br {
     display: none;
   }
 
-  .how-we-do__item:nth-child(2)>.how-we-do__item__tittle::after {
+  .how-we-do__item:nth-child(2) > .how-we-do__item__tittle::after {
     padding-top: 30px;
   }
-.how-we-do__item:nth-child(2)>.how-we-do__item__description{
-  padding-top: 25px;
-}
-
- 
+  .how-we-do__item:nth-child(2) > .how-we-do__item__description {
+    padding-top: 25px;
+  }
 
   .how-we-do__brake--desktop {
     display: static;
@@ -504,15 +481,15 @@
   }
 
   .how-we-do__item:hover,
-  .how-we-do__item:hover>.how-we-do__item__tittle,
-  .how-we-do__item:hover>.how-we-do__item__description,
-  .how-we-do__item:hover>.how-we-do__icon1,
-  .how-we-do__item:hover>.how-we-do__icon2,
-  .how-we-do__item:hover>.how-we-do__icon3,
-  .how-we-do__item:hover>.how-we-do__icon4,
-  .how-we-do__item:hover>.how-we-do__icon5,
-  .how-we-do__item:hover>.how-we-do__icon6,
-  .how-we-do__item:hover>.how-we-do__item__tittle::after {
+  .how-we-do__item:hover > .how-we-do__item__tittle,
+  .how-we-do__item:hover > .how-we-do__item__description,
+  .how-we-do__item:hover > .how-we-do__icon1,
+  .how-we-do__item:hover > .how-we-do__icon2,
+  .how-we-do__item:hover > .how-we-do__icon3,
+  .how-we-do__item:hover > .how-we-do__icon4,
+  .how-we-do__item:hover > .how-we-do__icon5,
+  .how-we-do__item:hover > .how-we-do__icon6,
+  .how-we-do__item:hover > .how-we-do__item__tittle::after {
     color: white;
     background-color: getColor(accent);
     fill: white;
