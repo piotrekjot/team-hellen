@@ -294,7 +294,6 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .header {
     display: flex;
-    padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 52px;
@@ -537,6 +536,7 @@
   .span__mobile {
     color: #ff6b09;
     font-weight: bold;
+    padding-bottom: 52px;
   }
 }
 
